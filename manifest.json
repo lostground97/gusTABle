@@ -1,0 +1,15 @@
+{
+    "name": "Get Tabs",
+    "version": "1.0",
+    "description": "Get all atbs opened in current window.",
+    "author": "Rishabh Sethi",
+    "manifest_version": 1,
+    "short_name": "Get Tabs",
+    "content_scripts": [{
+            "js":["jquery3.3.1.min.js"],
+            "matches": [ "http://*/*", "https://*/*"]
+        }],
+    "permissions": [
+      "tabs"
+    ]
+  }
